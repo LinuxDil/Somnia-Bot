@@ -25,8 +25,8 @@ A JavaScript-based automation tool for interacting with the Somnia testnet netwo
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/vVANare/somnia-testnet-bot.git
-cd somnia-testnet-bot
+git clone https://github.com/LinuxDil/Somnia-Bot.git
+cd Somnia-Bot
 ```
 
 2. Install dependencies:
@@ -35,7 +35,9 @@ npm install
 ```
 
 3. Create a `data/privkeys.txt` file with your private keys (one per line, starting with '0x')
-
+```bash
+nano data/privkeys.txt
+```
 ## Configuration
 
 Edit `data/config.js` to customize:
@@ -44,7 +46,9 @@ Edit `data/config.js` to customize:
 - Faucet attempts
 - Random send amounts
 - Wallet shuffling behavior
-
+```bash
+nano data/config.js
+```
 ## Usage
 
 Run the application:
